@@ -1,0 +1,30 @@
+.mainContent{
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    height: 100px;
+    background-color: rgb(114, 15, 2);
+}
+.txt{
+    height: auto;
+    width: auto;
+    background-color: rgb(247, 173, 150);
+    word-wrap: break-word;
+    overflow-y: scroll;
+    overflow: hidden;
+    text-align: center;
+}
+.floor{
+    height: 100px;
+    background-color: rgb(114, 15, 2);
+}
+.t{
+    text-align: center;
+}
+.p{
+   text-align: left; 
+}
+.forma{
+    text-align: left;
+}

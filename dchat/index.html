@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="dchat/styles/mainstyle.css" rel="stylesheet"></link>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script> function bodyOnLoad(){
+        require('./startServer.js')
+        window.location.assign
+    }
+    </script>
+  
+</head>
+
+<body onload="bodyOnLoad()">
+    
+    <div class="mainContent">
+        <div class="menu">
+      <h1 class="t">Сохранение данных из формы в json файл </h1 v>
+        </div>
+        <div class="txt">
+          
+          <p class="p">{message}</p>
+        <div class="forma">
+            <form action="/send" method="POST">
+                <label>Имя</label><br>
+                <input type="text" name="userName" /><br><br>
+                <label>Фамилия</label><br>
+                <input type="text" name="userSurname" /><br><br>
+                <label>Отчество</label><br>
+                <input type="text" name="userMiddlename" /><br><br>
+                <label>Дата рождения</label><br>
+                <input type="text" name="userDateofbirth" /><br><br>
+                <label>Возраст</label><br>
+                <input type="number" name="userAge" /><br><br>
+                <label>Учебное заведение</label><br>
+                <input type="text" name="userEducation" /><br><br>
+                <input type="submit" value="Отправить" />
+            </form>
+        </div> 
+       
+    </div>
+        <div class="floor">
+
+        </div>
+    </div>
+</body>
+
+</html>
